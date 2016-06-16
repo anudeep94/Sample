@@ -6,10 +6,9 @@
 //  Copyright © 2016 PytenLabs. All rights reserved.
 //
 
-#ifndef NewViewConnection_h
-#define NewViewConnection_h
+
 #import <UIKit/UIKit.h>
-@interface NewViewConnection : UIViewController
+@interface NewViewController : UIViewController
 
 
 @property (strong, nonatomic) NSString *name;
