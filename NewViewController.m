@@ -6,8 +6,7 @@
 //  Copyright © 2016 PytenLabs. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "NewViewController.h"
+
 
 @interface NewViewController()
 
@@ -21,7 +20,7 @@
 
 @end
 
-@implementation NewViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
