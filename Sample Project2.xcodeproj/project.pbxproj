@@ -14,6 +14,7 @@
 		843A4F0F1D1261F60067008A /* Sample_Project2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843A4F0D1D1261F60067008A /* Sample_Project2.xcdatamodeld */; };
 		843A4F111D1261F60067008A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843A4F101D1261F60067008A /* Assets.xcassets */; };
 		843A4F141D1261F60067008A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A4F121D1261F60067008A /* LaunchScreen.storyboard */; };
+		84F009031D12ACFB006206D2 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F009021D12ACFB006206D2 /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		843A4F101D1261F60067008A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843A4F131D1261F60067008A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843A4F151D1261F60067008A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F008FC1D12A4A6006206D2 /* NewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewViewController.h; path = ../NewViewController.h; sourceTree = "<group>"; };
+		84F009021D12ACFB006206D2 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewViewController.m; path = ../NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +47,9 @@
 		843A4EF51D1261F60067008A = {
 			isa = PBXGroup;
 			children = (
-				843A4F001D1261F60067008A /* Sample Project2 */,
 				843A4EFF1D1261F60067008A /* Products */,
+				843A4F001D1261F60067008A /* Sample Project2 */,
+				843A4F011D1261F60067008A /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,12 +68,13 @@
 				843A4F051D1261F60067008A /* AppDelegate.m */,
 				843A4F071D1261F60067008A /* ViewController.h */,
 				843A4F081D1261F60067008A /* ViewController.m */,
+				84F008FC1D12A4A6006206D2 /* NewViewController.h */,
+				84F009021D12ACFB006206D2 /* NewViewController.m */,
 				843A4F0A1D1261F60067008A /* Main.storyboard */,
 				843A4F101D1261F60067008A /* Assets.xcassets */,
 				843A4F121D1261F60067008A /* LaunchScreen.storyboard */,
 				843A4F151D1261F60067008A /* Info.plist */,
 				843A4F0D1D1261F60067008A /* Sample_Project2.xcdatamodeld */,
-				843A4F011D1261F60067008A /* Supporting Files */,
 			);
 			path = "Sample Project2";
 			sourceTree = "<group>";
@@ -80,6 +85,7 @@
 				843A4F021D1261F60067008A /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Sample Project2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +160,7 @@
 			files = (
 				843A4F091D1261F60067008A /* ViewController.m in Sources */,
 				843A4F061D1261F60067008A /* AppDelegate.m in Sources */,
+				84F009031D12ACFB006206D2 /* NewViewController.m in Sources */,
 				843A4F0F1D1261F60067008A /* Sample_Project2.xcdatamodeld in Sources */,
 				843A4F031D1261F60067008A /* main.m in Sources */,
 			);
@@ -268,6 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Sample Project2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pytenlabs.Sample-Project2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Sample Project2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pytenlabs.Sample-Project2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +313,7 @@
 				843A4F1A1D1261F60067008A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

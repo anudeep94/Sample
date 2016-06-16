@@ -7,8 +7,16 @@
 //
 
 #import "ViewController.h"
+#import "NewViewController.h"
+
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordField;
+@property (weak, nonatomic) IBOutlet UITextField *confirmPasswardField;
+
 
 @end
 
